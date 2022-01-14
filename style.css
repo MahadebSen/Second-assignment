@@ -1,0 +1,64 @@
+/*----------------
+    main font 
+ ----------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------
+    first section 
+---------------------- */
+
+.first-section {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.head-info {
+    padding-top: 3.15em;
+    padding-left: 1.5em;
+
+}
+.head-info h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.head-info a {
+    margin-left: 0.10em;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #E02C6D;
+}
+.first-section img {
+    width: 440px;
+    height: 340px;
+}
+
+/*-------------------- 
+         logos 
+----------------------*/
+
+hr {
+    margin: 0 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#logos {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#logos img {
+    width: 60px;
+    height: 50px;
+}
+.sec-hr {
+    margin: 0 75px;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
