@@ -45,7 +45,7 @@ nav div a:hover {
 .first-section {
     display: flex;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 33px;
 }
 .head-info {
     padding-top: 3.15em;
@@ -207,4 +207,97 @@ footer {
 }
 footer i {
     padding-left: 10px;
+}
+
+/*------------------------------
+          media queary 
+--------------------------------*/
+
+@media only screen and (max-width: 668px) {
+
+    nav div {
+        display: none;
+    }
+    nav p {
+        text-align: center;
+        font-size: 1.7em;
+        padding-left: 140px;
+    }
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .head-info {
+        order: 2;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        padding-right: 65px;
+        
+    }
+    .f-img {
+        width: 257px;
+        height: 257px;
+        padding-left: 0;
+        margin-left: 0;
+
+    }
+
+     #logos {
+         display: none;
+     }
+     hr {
+         display: none;
+     }
+     .all-products {
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .product {
+        width: 329px;
+        height: 476px; 
+     }
+     .last-section {
+        flex-direction: column;
+        text-align: center;
+     }
+     
+}
+
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+
+    nav p{
+        margin-top: 0;
+    }
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .head-info {
+        order: 2;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        padding-right: 65px;
+        
+    }
+    .f-img {
+        width: 257px;
+        height: 257px;
+        padding-left: 42px;
+        margin-left: 0;
+
+    }
+    .all-products {
+        grid-template-columns: repeat(2, 1fr);
+     }
+     .last-section {
+        flex-direction: column;
+        text-align: center;
+     }
+     .last-section div img {
+        width: 400px;
+        height: 250px;
+    }
 }
