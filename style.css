@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /*---------------------
@@ -23,10 +24,12 @@ nav p {
     font-weight: bold;
 }
 nav > div a {
+    color: black;
+    font-weight: 800;
     text-decoration: none;
     height: 40px;
     width: 75px;
-    padding: 0 7px;
+    padding: 0 10px;
 }
 
 
@@ -36,8 +39,8 @@ nav > div a {
 
 .first-section {
     display: flex;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 .head-info {
     padding-top: 3.15em;
@@ -48,7 +51,7 @@ nav > div a {
     font-size: 30px;
     font-weight: bolder;
 }
-.head-info a {
+.button {
     margin-left: 0.10em;
     text-decoration: none;
     font-weight: bolder;
@@ -147,4 +150,49 @@ hr {
 }
 .product-info-last {
     font-size: 0.9em;
+}
+#see-more {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: right;
+    margin-right: 70px;
+}
+
+/*------------------------
+       last section 
+--------------------------*/
+
+.last-section {
+    display: flex;
+    margin: 0 20px ;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.last-section img {
+    height: auto;
+    width: 270px;
+    padding-left: 30px;
+}
+.last-info {
+    margin: 0 30px;
+    padding-left: 40px;
+}
+
+/*--------------------------
+          footer 
+----------------------------*/
+
+footer {
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+#last-line {
+    font-size: 22px;
+    font-weight: bold;
+}
+footer i {
+    padding-left: 10px;
 }
