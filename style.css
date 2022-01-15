@@ -6,6 +6,30 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*---------------------
+    Navigation bar 
+----------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+nav p {
+    margin-top: 7px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav > div a {
+    text-decoration: none;
+    height: 40px;
+    width: 75px;
+    padding: 0 7px;
+}
+
+
 /*--------------------
     first section 
 ---------------------- */
@@ -17,7 +41,7 @@ body {
 }
 .head-info {
     padding-top: 3.15em;
-    padding-left: 1.5em;
+    padding-left: 1.8em;
 
 }
 .head-info h2 {
@@ -36,6 +60,7 @@ body {
 .first-section img {
     width: 440px;
     height: 340px;
+    padding-left: 50px;
 }
 
 /*-------------------- 
@@ -61,4 +86,65 @@ hr {
     margin: 0 75px;
     margin-top: 20px;
     margin-bottom: 50px; 
+}
+
+/*-----------------------
+    Product's section 
+-------------------------*/
+
+.second-heading{
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+.product-sec {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.all-products {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    margin: 25px 30px;
+}
+
+.product {
+    height:380px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px gray;
+}
+.product-image img {
+    height: auto;
+    width: 100%;
+}
+
+.product-name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size:22px;
+    font-weight: bolder;
+}
+.product-mrp {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 0;
+    font-size:20px;
+    font-weight: 550;
+}
+.product-info i {
+    color: orange;
+    margin-bottom: 0;
+}
+.product-info span {
+    padding-left: 7px;
+}
+.product-info-last {
+    font-size: 0.9em;
 }
